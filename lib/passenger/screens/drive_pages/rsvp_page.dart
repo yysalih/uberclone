@@ -88,7 +88,7 @@ class _RSVPPageState extends ConsumerState<RSVPPage> {
   void getPolyPoints() async {
     PolylinePoints polylinePoints = PolylinePoints();
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-      "AIzaSyBGIPc00JPoRYPJeV-WRSV4cOhgc0Ruqfk",
+      "your-api-key-here",
       PointLatLng(_start.latitude, _start.longitude),
       PointLatLng(_end.latitude, _end.longitude),
     );

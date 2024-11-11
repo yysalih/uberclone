@@ -369,7 +369,7 @@ class _ChangeDestinationPageState extends State<ChangeDestinationPage> {
   _handlerPressButton() async {
     Prediction? p = await PlacesAutocomplete.show(
         context: context,
-        apiKey: "AIzaSyBGIPc00JPoRYPJeV-WRSV4cOhgc0Ruqfk",
+        apiKey: "your-api-key-here",
         mode: Mode.overlay,
         language: !MainScreen.english ? "en" : "tr",
         strictbounds: false,

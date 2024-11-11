@@ -20,7 +20,7 @@ class DirectionsAPI {
       queryParameters: {
         'origin': '${origin.latitude},${origin.longitude}',
         'destination': '${destination.latitude},${destination.longitude}',
-        'key': "AIzaSyBGIPc00JPoRYPJeV-WRSV4cOhgc0Ruqfk",
+        'key': "your-api-key-here",
       },
     );
 
