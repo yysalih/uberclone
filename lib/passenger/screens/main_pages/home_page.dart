@@ -406,7 +406,7 @@ class _HomePageState extends State<HomePage> {
   void getPolyPoints() async {
     PolylinePoints polylinePoints = PolylinePoints();
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-      "AIzaSyA8DU86tOXazmyjn8TL3sU3hNiSWQhb88Q",
+      "your-api-key-here",
       PointLatLng(_center.latitude, _center.longitude),
       PointLatLng(_destination.latitude, _destination.longitude),
     );
